@@ -6,13 +6,15 @@
     box-sizing: border-box;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 550;
     font-style: normal;
     color: #1f2937;
     
 }
 
 body {
+    width: 300px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,5 +26,25 @@ a{
     text-decoration: none ;
 
 }
-
  
+header {
+
+    width: 300px;
+    display: flex;
+    align-items: flex-start;
+    
+
+}
+
+#fa-solid fa-arrow-left{
+
+ width: 100%;
+ margin-top: 350px;
+}
+
+
+h2{
+    margin-left: 80px;
+}
+
+
