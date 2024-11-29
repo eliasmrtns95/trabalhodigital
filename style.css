@@ -106,8 +106,7 @@ h1{
 }
 
 .password{
-    display: flex;
-    justify-content:space-between ;
+    margin: 1em;
     font-family: "Montserrat", serif;
     font-weight:350;
     font-style:normal;
@@ -117,20 +116,52 @@ h1{
     border-color: transparent;
     border-radius: 10px;
     width: 100%;
-    display: flex;
     padding: 15px;
     width: 350px;
-    
+    position: relative;
     
     
 }
 
-i fa-regular fa-eye-slash{
+i.fa-regular.fa-eye-slash {
+display: flex;
+margin: auto;
+position: relative;
+right:50px;    
 
-    position: absolute;
-    right: 10px;
-    margin-top: 20px;
 }
+
+.btn{
+    
+    padding: 15px;
+    margin: 1em;
+    width: 350px;
+    font-family: "Montserrat", serif;
+    font-weight:350;
+    font-style:normal;
+    color: white;
+    font-size: 17px;
+    font-weight: lighter;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: rgb(26, 160, 243);
+    
+}
+
+.href{
+    color: rgb(26, 160, 243);
+}
+    
+    
+
+
+    
+    
+
+
+
+
+
 
 
 
