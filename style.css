@@ -13,8 +13,9 @@
 }
 
 body {
-    width: 300px;
+    width: 400px;
     height: 100%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,19 +33,26 @@ header {
     width: 300px;
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     
 
 }
 
-#fa-solid fa-arrow-left{
-
- width: 100%;
- margin-top: 350px;
+.conteiner-a {
+    
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    font-size: x-large;
 }
 
 
 h2{
-    margin-left: 80px;
+    margin: 10px;
+    font-size: larger;
+    margin-right: 80px;
 }
+
+
 
 
